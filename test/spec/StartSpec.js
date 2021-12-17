@@ -6,15 +6,13 @@ import LassoGroupModule from '../..';
 import '../TestHelper';
 
 
-import diagramXML from './complex.bpmn';
+import diagramXML from './diagram.bpmn';
 
 describe('example', function() {
 
   it('should start', function() {
 
     // given
-    this.timeout(10000);
-
     const container = MochaTestContainer.get(this);
     const modeler = new Modeler({
       container,
