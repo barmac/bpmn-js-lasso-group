@@ -4,7 +4,7 @@ Create `bpmn:Group` in [bpmn-js](https://github.com/bpmn-io/bpmn-js) with a lass
 
 ## Usage
 
-Pass the exported module to `additionalModule` when you create a Modeler instance.
+Pass the exported module to `additionalModules` when you create a Modeler instance.
 
 ```javascript
 import Modeler from 'bpmn-js/lib/Modeler';
